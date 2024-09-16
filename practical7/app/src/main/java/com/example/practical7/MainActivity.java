@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onLongClick(View v) {
                 Toast.makeText(MainActivity.this, "Button Long Clicked!", Toast.LENGTH_SHORT).show();
-                return true; // Return true to indicate the event was handled
+                return true;
             }
         });
         editText.setOnLongClickListener(view -> {
